@@ -32,7 +32,11 @@ This is typically a good choice for support beyond your campus.
 
 **ESNET**: If your problem involves a national laboratory in the United States, a university connected to ESnet or a trans-Atlantic network problem, then you may want to contact ESnet:
 
+<<<<<<< HEAD
 -   <http://es.net/about/contact-us/>
+=======
+-   <http://www.es.net/introducing-esnet5/tools/>
+>>>>>>> 9493f7c69f4a04846a69a242b77e1da8452831f9
 
 This page contains information on opening ticket and pointers to relevant tools and documentation. ESnet serves the Department of Energy national labs.
 
@@ -40,6 +44,15 @@ This page contains information on opening ticket and pointers to relevant tools 
 
 -   <https://opensciencegrid.github.io/production/>
 
+<<<<<<< HEAD
 **WLCG**: WLCG has a dedicated support unit, which will assist in debugging the problem and triaging the issue. More details can be found at:
 
 - <https://twiki.cern.ch/twiki/bin/view/LCG/NetworkTransferMetrics#Network_Throughput_Support_Unit>
+=======
+<span class="twiki-macro STOPINCLUDE"></span>
+
+<span class="twiki-macro BOTTOMMATTER"></span>
+
+-- Main.ShawnMcKee - 09 Sep 2017
+
+>>>>>>> 9493f7c69f4a04846a69a242b77e1da8452831f9

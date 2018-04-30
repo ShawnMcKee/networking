@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Infrastructure Monitoring
 
 WLCG/OSG is operating more than 200 perfSONAR agents world-wide. A typical perfSONAR deployment has many services that need to function correctly for the the system to work.  As we scale-up to many perfSONAR deployments across many sites it can be
@@ -30,4 +31,14 @@ Central services are also monitored with the same tool and their status can be s
 
 
 
+=======
+### Monitoring perfSONAR with ETF (Experiment Testing Framework)
+
+A typical perfSONAR deployment has many services that need to function correctly for the the system to work.  As we scale-up to many perfSONAR deployments across many sites it can be
+difficult to verify everything is working correctly.   
+
+WLCG has provided a solution for OSG and WLCG perfSONAR deployments:  perfSONAR ETF
+
+Here we describe psetf, it use-cases and operation.
+>>>>>>> 9493f7c69f4a04846a69a242b77e1da8452831f9
 

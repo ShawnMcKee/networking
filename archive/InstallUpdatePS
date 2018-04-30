@@ -67,10 +67,17 @@ Please ensure you have added or updated your administrative information: http://
 Assuming your registration is for a *new* node or if you have changed the nodes FQDN, you will need to email =wlcg-perfsonar-support 'at' cern.ch= or open GGUS ticket for [[https://wiki.egi.eu/wiki/GGUS:WLCG_perfSONAR_FAQ][WLCG perfSONAR support unit]] so that your node can be added to one or more meshes.  Please indicate if you have preferences for which meshes your node should be included in.
 
 You will need to configure your instance(s) to use the OSG/WLCG mesh-configuration.   OSG provides MCA (Mesh Configuration  Adminstrator) GUI (see http://docs.perfsonar.net/mca.html for details) to centrally define the network tests that need to be run.  Each perfSONAR toolkit installation for OSG/WLCG should add the "auto" mesh URL in their =/etc/perfsonar/meshconfig-agent.conf= file:
+<<<<<<< HEAD
       * Set this to =http://meshconfig.grid.iu.edu/pub/auto/&lt;FQDN&gt;=    Replace =&lt;FQDN&gt;= with the fully qualified domain name of your host, e.g., =psum01.aglt2.org=.  
       * <verbatim>
 <mesh>
       configuration_url http://meshconfig.grid.iu.edu/pub/auto/psum01.aglt2.org
+=======
+      * Set this to =http://meshconfig.opensciencegrid.org/pub/auto/&lt;FQDN&gt;=    Replace =&lt;FQDN&gt;= with the fully qualified domain name of your host, e.g., =psum01.aglt2.org=.  
+      * <verbatim>
+<mesh>
+      configuration_url http://meshconfig.opensciencegrid.org/pub/auto/psum01.aglt2.org
+>>>>>>> 9493f7c69f4a04846a69a242b77e1da8452831f9
       validate_certificate 0
       required 1
 </mesh>
