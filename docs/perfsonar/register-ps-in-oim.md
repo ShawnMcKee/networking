@@ -11,7 +11,7 @@
 
 
 <<<<<<< HEAD
-This section describes how to register your perfSONAR-PS instances in OIM. For general information about registering items in OIM see <https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions>
+This section describes how to register your perfSONAR-PS instances in OIM. For general information about registering items in OIM see <https://twiki.opensciencegrid.org/bin/view/Operations/OIMRegistrationInstructions>
 =======
 This section describes how to register your perfSONAR-PS instances in OIM. For general information about registering items in OIM see <https://twiki.opensciencegrid.org/bin/view/Operations/OIMRegistrationInstructions>
 >>>>>>> 9493f7c69f4a04846a69a242b77e1da8452831f9
@@ -23,8 +23,8 @@ The example below uses AGLT2 (primarily an ATLAS Tier-2 center) which has two ph
 To begin registration, make sure you have your X509 certificate loaded in your browser and go to
 
 <<<<<<< HEAD
--   <https://oim.grid.iu.edu> (for registered users)
--   <http://oim.grid.iu.edu> (for guest)
+-   <https://oim.opensciencegrid.org> (for registered users)
+-   <http://oim.opensciencegrid.org> (for guest)
 =======
 -   <https://oim.opensciencegrid.org> (for registered users)
 -   <http://oim.opensciencegrid.org> (for guest)
