@@ -22,13 +22,13 @@ The plans for OSG networking include activity in these areas related to network 
 OSG supports a number of services for networking including a *central ESmond datastore* which hosts all the OSG/WLCG perfSONAR data.   
    * Information on ESmond is available at http://software.es.net/esmond/
    * Information on querying the perfSONAR data from ESmond is at http://software.es.net/esmond/perfsonar_client_rest.html
-   * Access to a JSON view of the OSG network datastore is available at http://psds.grid.iu.edu/esmond/perfsonar/archive/?format=json
+   * Access to a JSON view of the OSG network datastore is available at http://psds.opensciencegrid.org/esmond/perfsonar/archive/?format=json
 
 We can monitor the OSG network metrics using *MaDDash* (ESnet's Monitoring and Diagnostic Dashboard)
-   * OSG *MaDDash* instance http://psmad.grid.iu.edu/maddash-webui/index.cgi
+   * OSG *MaDDash* instance http://psmad.opensciencegrid.org/maddash-webui/index.cgi
 
 The *basic service checking* to track and monitor all our perfSONAR services uses =OMD/Check_mk=.   NOTE:  You need an x.509 credential in your browser to view this
-   * =OSG OMD/Check_MK= service monitoring https://psomd.grid.iu.edu/WLCGperfSONAR/check_mk/
+   * =OSG OMD/Check_MK= service monitoring https://psomd.opensciencegrid.org/WLCGperfSONAR/check_mk/
 
 The [[http://docs.perfsonar.net/][perfSONAR]] toolkit is part of the [[http://www.perfsonar.net/][perfSONAR]] project.   
 The current perfSONAR-PS toolkit is [[http://docs.perfsonar.net/install_getting.html][available for download]]

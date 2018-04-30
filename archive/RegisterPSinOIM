@@ -20,15 +20,15 @@
 ----
 ----
 <br>
-This section describes how to register your perfSONAR-PS instances in OIM.  For general information about registering items in OIM see  https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions 
+This section describes how to register your perfSONAR-PS instances in OIM.  For general information about registering items in OIM see  https://twiki.opensciencegrid.org/bin/view/Operations/OIMRegistrationInstructions 
 
 Each OSG site should have two perfSONAR instances (one for Latency and one for Bandwidth) installed to enable network monitoring.   These instances should be located as "close" (in a network-sense) as possible to the site's storage.  If a logical site is comprised of more than one physical site, each physical site should be instrumented with perfSONAR instances.
 
 The example below uses AGLT2 (primarily an ATLAS Tier-2 center) which has two physical sites located at the University of Michigan in Ann Arbor and at Michigan State University in East Lansing.
 
 To begin registration, make sure you have your X509 certificate loaded in your browser and go to 
-   * https://oim.grid.iu.edu (for registered users)
-   * http://oim.grid.iu.edu (for guest)
+   * https://oim.opensciencegrid.org (for registered users)
+   * http://oim.opensciencegrid.org (for guest)
 
    * The web page should be similar to this one with your site details.  See notes on this screen capture: <br />
      <img src="%ATTACHURLPATH%/OIM_perfSONAR_reg_1.png" alt="OIM_perfSONAR_reg_1.png" width='991' height='500' />    

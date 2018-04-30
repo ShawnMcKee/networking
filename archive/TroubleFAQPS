@@ -13,7 +13,7 @@
 %STARTINCLUDE%
 Here  we  will  provide  details on  troubleshooting  perfSONAR  installations  for  OSG and WLCG  as well  as some additional configuration options and  a FAQ.
 
-There are a good set of  =cli=  tools  for  perfSONAR  available.  Details on these  tools are at https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NetworkPerformanceToolkit    The  =owping= and =bwctl= tools  can  be  very useful  to test from your location  to  any perfSONAR instance running either  the  OWAMP or BWCTL  services  respectively.
+There are a good set of  =cli=  tools  for  perfSONAR  available.  Details on these  tools are at https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/NetworkPerformanceToolkit    The  =owping= and =bwctl= tools  can  be  very useful  to test from your location  to  any perfSONAR instance running either  the  OWAMP or BWCTL  services  respectively.
 
 We are maintaining a [[https://twiki.opensciencegrid.org/bin/view/Documentation/NetworkingTroubleShooting][Network Troubleshooting]] Wiki page to guide users in identifying and following up on network problems.
 
@@ -63,10 +63,10 @@ reboot
    7. *perfSONAR Latitude/Longitude Configured* is failing
    8. *perfSONAR Mesh Configuration* is failing
       * This indicates that you're missing the recommended mesh configuration. Please configure your mesh URL(s) in */opt/perfsonar_ps/mesh_config/etc/agent_configuration.conf*.  We have a new =auto-mesh= capability now and all sites should set:
-      * Set this to =http://meshconfig.grid.iu.edu/pub/auto/&lt;FQDN&gt;=    Replace =&lt;FQDN&gt;= with the fully qualified domain name of your host, e.g., =psum01.aglt2.org=.  Values for each instance are [[http://grid-monitoring.cern.ch/perfsonar_config.txt][in this list]].
+      * Set this to =http://meshconfig.opensciencegrid.org/pub/auto/&lt;FQDN&gt;=    Replace =&lt;FQDN&gt;= with the fully qualified domain name of your host, e.g., =psum01.aglt2.org=.  Values for each instance are [[http://grid-monitoring.cern.ch/perfsonar_config.txt][in this list]].
       * <verbatim>
 <mesh>
-      configuration_url http://meshconfig.grid.iu.edu/pub/auto/psum01.aglt2.org
+      configuration_url http://meshconfig.opensciencegrid.org/pub/auto/psum01.aglt2.org
       validate_certificate 0
       required 1
 </mesh>

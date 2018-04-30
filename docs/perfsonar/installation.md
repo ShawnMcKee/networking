@@ -64,10 +64,10 @@ Assuming your registration is for a **new** node or if you have changed the node
 
 You will need to configure your instance(s) to use the OSG/WLCG mesh-configuration. OSG provides MCA (Mesh Configuration Adminstrator) GUI (see <http://docs.perfsonar.net/mca.html> for details) to centrally define the network tests that need to be run. Each perfSONAR toolkit installation for OSG/WLCG should add the "auto" mesh URL in their `/etc/perfsonar/meshconfig-agent.conf` file:
 
--   Set this to `http://meshconfig.grid.iu.edu/pub/auto/<FQDN>` Replace `<FQDN>` with the fully qualified domain name of your host, e.g., `psum01.aglt2.org`.
+-   Set this to `http://meshconfig.opensciencegrid.org/pub/auto/<FQDN>` Replace `<FQDN>` with the fully qualified domain name of your host, e.g., `psum01.aglt2.org`.
 -   ```
 	<mesh> 
-	    configuration_url <http://meshconfig.grid.iu.edu/pub/auto/psum01.aglt2.org>
+	    configuration_url <http://meshconfig.opensciencegrid.org/pub/auto/psum01.aglt2.org>
 	    validate_certificate 0 
 	    required 1 
 </mesh> 	

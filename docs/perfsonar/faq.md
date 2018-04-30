@@ -6,7 +6,7 @@
 
 <span class="twiki-macro STARTINCLUDE"></span> Here we will provide details on troubleshooting perfSONAR installations for OSG and WLCG as well as some additional configuration options and a FAQ.
 
-There are a good set of `cli` tools for perfSONAR available. Details on these tools are at <https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NetworkPerformanceToolkit> The `owping` and `bwctl` tools can be very useful to test from your location to any perfSONAR instance running either the OWAMP or BWCTL services respectively.
+There are a good set of `cli` tools for perfSONAR available. Details on these tools are at <https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/NetworkPerformanceToolkit> The `owping` and `bwctl` tools can be very useful to test from your location to any perfSONAR instance running either the OWAMP or BWCTL services respectively.
 
 We are maintaining a [Network Troubleshooting](https://twiki.opensciencegrid.org/bin/view/Documentation/NetworkingTroubleShooting) Wiki page to guide users in identifying and following up on network problems.
 
@@ -51,10 +51,10 @@ Finally reboot:
     -   This means that your measurement archive is not accessible, there can be many possible causes (disk full, httpd not running or inaccessible, etc.), you can ask for help by opening a GGUS ticket to WLCG perfSONAR support. 5. **perfSONAR Homepage** is failing
     -   This means the toolkit's homepage is inaccessible, please check for usual causes (disk full, httpd not running or blocked), we need to be able to access your homepage via HTTP or HTTPS 7. **perfSONAR Latitude/Longitude Configured** is failing 8. **perfSONAR Mesh Configuration** is failing
     -   This indicates that you're missing the recommended mesh configuration. Please configure your mesh URL(s) in **/opt/perfsonar\_ps/mesh\_config/etc/agent\_configuration.conf**. We have a new `auto-mesh` capability now and all sites should set:
-    -   Set this to `http://meshconfig.grid.iu.edu/pub/auto/<FQDN>` Replace `<FQDN>` with the fully qualified domain name of your host, e.g., `psum01.aglt2.org`. Values for each instance are [in this list](http://grid-monitoring.cern.ch/perfsonar_config.txt).
+    -   Set this to `http://meshconfig.opensciencegrid.org/pub/auto/<FQDN>` Replace `<FQDN>` with the fully qualified domain name of your host, e.g., `psum01.aglt2.org`. Values for each instance are [in this list](http://grid-monitoring.cern.ch/perfsonar_config.txt).
     -   <verbatim>
 
-<mesh> configuration\_url <http://meshconfig.grid.iu.edu/pub/auto/psum01.aglt2.org> validate\_certificate 0 required 1 </mesh> </verbatim>
+<mesh> configuration\_url <http://meshconfig.opensciencegrid.org/pub/auto/psum01.aglt2.org> validate\_certificate 0 required 1 </mesh> </verbatim>
 
 -   Please REMOVE any old mesh configuration, this metric will also fail in case you have both the new mesh config and the old mesh URLs 9. **perfSONAR NTP Service** is failing
 -   This indicates that NTP service is not running correctly on your sonar, please note that NTP is critical service. Please refer to <http://www.perfsonar.net/about/faq/> 10. **perfSONAR Regular Testing Service** is failing

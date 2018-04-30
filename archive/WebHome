@@ -12,17 +12,17 @@
      <td>
       <table border="0" cellpadding="3" cellspacing="2">
         <tr>
-         <td><h4>[[http://myosg.grid.iu.edu/miscstatus?count_sg_1&count_active=on&count_enabled=on&datasource=status][Operations Service Overview]]</h4>
+         <td><h4>[[http://myosg.opensciencegrid.org/miscstatus?count_sg_1&count_active=on&count_enabled=on&datasource=status][Operations Service Overview]]</h4>
          </td>
         </tr>
         <tr>
          <td><h4>Contact OSG Operations</h4>
 
- - [[http://ticket.grid.iu.edu][Open a ticket]]<br/>
+ - [[http://ticket.opensciencegrid.org][Open a ticket]]<br/>
  - Email: goc [at] opensciencegrid.org <br/>
  - Mailing list: osg-operations [at] opensciencegrid dot org<br/>
  - Phone Number: 317-278-9699<br/>
- - [[https://oim.grid.iu.edu][Register with OSG]]<br/>
+ - [[https://oim.opensciencegrid.org][Register with OSG]]<br/>
  - Follow us on Twitter: @OSGGOC
          </td>
         </tr>
@@ -70,7 +70,7 @@ OSG Operations activities can be split into two often overlapping areas:
 
 ---+++ The Grid Operations Center (GOC) at Indiana University
 
-Based at Indiana University, the GOC provides a single point of operational support for the  Open Science Grid (OSG). OSG Operations performs real time Grid monitoring and problem tracking, provides support to users, developers and systems administrators, maintains grid services, provides security incident response, and maintains information repositories. Operations provides the OIM Registration Database for the Support Centers, Virtual Organizations, and Services. A list of Operations Services is presented and/or linked off of [[http://myosg.grid.iu.edu/about][MyOSG]].
+Based at Indiana University, the GOC provides a single point of operational support for the  Open Science Grid (OSG). OSG Operations performs real time Grid monitoring and problem tracking, provides support to users, developers and systems administrators, maintains grid services, provides security incident response, and maintains information repositories. Operations provides the OIM Registration Database for the Support Centers, Virtual Organizations, and Services. A list of Operations Services is presented and/or linked off of [[http://myosg.opensciencegrid.org/about][MyOSG]].
 
 The Grid Operations Center blog is located at [[http://osggoc.blogspot.com/]]. For more information see [[TheGOC][*What is the GOC?*]]
 
@@ -82,7 +82,7 @@ The Grid Operations Center blog is located at [[http://osggoc.blogspot.com/]]. F
 
 ---++ Contact Information
    * Group Contact
-      * [[http://ticket.grid.iu.edu][Open a ticket]]<br/>
+      * [[http://ticket.opensciencegrid.org][Open a ticket]]<br/>
       * Email GOC: goc [at] opensciencegrid.org <br/>
       * Larger Operations Mailing list: osg-operations at opensciencegrid dot org ([[http://listserv.fnal.gov/archives/osg-operations.html][archive]])
    * Members of OSG Operations
@@ -107,23 +107,23 @@ The Grid Operations Center blog is located at [[http://osggoc.blogspot.com/]]. F
       * [[OSGPKIChangeMgmt][Change Management for OSG PKI]]
    * OIMRegistrationInstructions
 
----+++ [[http://ticket.grid.iu.edu/][Trouble Ticketing]] related
-   * [[https://ticket.grid.iu.edu/goc/list/open][Current Ticket Summary]] - Provides a list of currently open OSG tickets
-   * [[http://ticket.grid.iu.edu][Open a ticket]]
+---+++ [[http://ticket.opensciencegrid.org/][Trouble Ticketing]] related
+   * [[https://ticket.opensciencegrid.org/goc/list/open][Current Ticket Summary]] - Provides a list of currently open OSG tickets
+   * [[http://ticket.opensciencegrid.org][Open a ticket]]
    * [[TicketExpectations]] - Defines expectations for tickets opened
    * [[http://docs.google.com/Doc?docid=0AQGl_1gJKDWDZGY5ZnR6anZfMjFmMmpzZmc1cA&hl=en][GOC-TX Ticket Exchange Settings]] - Documents ticket exchange setups between the GOC and various ticketing systems using by OSG support centers
    * [[TicketExchange]] Requirements for exchanging tickets with attachments.
    * [[QATicket][Daily Quality Assurance Procedures]]
 
----+++ [[http://myosg.grid.iu.edu/][MyOSG]] related
+---+++ [[http://myosg.opensciencegrid.org/][MyOSG]] related
    * [[Operations/GettingResourceDataMyOSG][Getting Resource Data from !MyOSG]] - Provides information for end-user about extracting resource/service information from MyOSG
    * [[UserContributedViews][A user contributed list of !MyOSG Views]] - Provides virtual grouping of information available from !MyOSG
    * [[MyOSGRoadMap][Future Development of !MyOSG Road Map]]
 
----+++ [[http://software.grid.iu.edu/pacman/tarballs/vo-package/][VO-Package]] related
+---+++ [[http://software.opensciencegrid.org/pacman/tarballs/vo-package/][VO-Package]] related
    * [[VOPackageReleases]]
 
----+++ [[https://internal.grid.iu.edu/twiki/bin/view/Documentation/RSV/WebHome][RSV]] related 
+---+++ [[https://internal.opensciencegrid.org/twiki/bin/view/Documentation/RSV/WebHome][RSV]] related 
    * [[RsvSAMGridView]] - documents how the RSV-SAM system for interoperable resource monitoring is setup
       * [[RsvSAMGridViewProblemList]] - running list of all known RSV-SAM issues
 
